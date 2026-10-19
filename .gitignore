@@ -1,0 +1,33 @@
+# ==============================================================================
+# .gitignore for Bank Loan Analytics & Risk Portfolio Workflow
+# Stack  : MySQL, Power BI (.pbix), Python, Jupyter Notebooks
+# Author : Ravinder Gupta (https://github.com/ravinder0710)
+# ==============================================================================
+
+# --- Jupyter Notebook Checkpoints & Cache ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+
+# --- Operating System & Temporary Files ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.temp
+~$*.xlsx
+~$*.docx
+
+# --- IDE Settings ---
+.vscode/
+.idea/
