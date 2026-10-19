@@ -1,31 +1,3 @@
-Haan bhai, agar repo pehle hi ban chuki hai aur pehla commit ho chuka hai, toh **sirf ye 2 minute ka chhota sa kaam karna hai**:
-
-Humein bas **wo 4 Python ke images add karne hain** aur **README update karni hai**. Baaki sab pehle se perfect hai!
-
----
-
-### Step 1: Wo 4 Python Images upload kar do (30 Seconds)
-1. Apne browser me direct is upload link par jao:  
-   👉 **https://github.com/ravinder0710/bank-loan-analysis-sql-powerbi-python/upload/main**
-2. Apne computer me ye folder kholo:  
-   📁 `E:\antigravity\dashboard_1\bank-loan-analysis-sql-powerbi-python`
-3. Usme se sirf ye **4 nayi images select karke drag/upload kar do**:
-   - `python_monthly_trend.png`
-   - `python_state_funding.png`
-   - `python_term_donut.png`
-   - `python_homeownership_treemap.png`
-4. Neeche **"Commit changes"** (green button) par click kar do!
-
----
-
-### Step 2: README ko Edit karke Update kar do (30 Seconds)
-1. Browser me direct ye edit link kholo:  
-   👉 **https://github.com/ravinder0710/bank-loan-analysis-sql-powerbi-python/edit/main/README.md**
-2. Us box ke andar jo purana likha hai, usko hata kar, neeche diya hua **Updated README code paste kar do**:
-
-<details>
-<summary>📋 <b>Click karo aur copy karo (Updated Bank Loan README Code)</b></summary>
-
 ```markdown
 # 🏦 Bank Loan Analytics & Portfolio Risk Intelligence System
 ### Enterprise Credit Risk, Liquidity Monitoring & BI Reconciliation Pipeline
@@ -241,7 +213,3 @@ bank-loan-analysis-sql-powerbi-python/
 - 💼 **LinkedIn:** [linkedin.com/in/ravinder-gupta-da](https://linkedin.com/in/ravinder-gupta-da)  
 - 🐙 **GitHub:** [github.com/ravinder0710](https://github.com/ravinder0710)
 ```
-
-3. Neeche **"Commit changes..."** button par click kar do!
-
-Bas bhai, ye do chhote steps karte hi tumhari Bank Loan repo me **Power BI Dashboard + Python Seaborn/Plotly Visuals** sab ek sath display hone lagenge!
