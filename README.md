@@ -160,6 +160,7 @@ bank-loan-analysis-sql-powerbi-python/
 ├── Bank_Loan_Analysis_SQL_MySQL_Professional_Project_Report_v2.docx # In-depth 16-section executive project report
 ├── Domain Knowledge Doc.docx                                        # Banking domain, risk lifecycle, and compliance guide
 │
+├── data_architecture_pipeline.png                                   # End-to-end data architecture & workflow diagram
 ├── dashboard_summary_view.png                                       # Power BI View 1: Executive KPI summary preview
 ├── dashboard_overview_view.png                                      # Power BI View 2: Dimensional slice-and-dice preview
 ├── dashboard_details_grid.png                                       # Power BI View 3: Loan status grid preview
