@@ -66,23 +66,20 @@ In addition to Power BI, comprehensive exploratory statistical modeling was deve
 
 ## 🛠️ Data Architecture & Analytical Workflow
 
-```text
-financial_loan Raw Transactional Ledger (38,576 records)
-                       │
-       ┌───────────────┴───────────────┐
-       ▼                               ▼
-[MySQL Analytical Engine]    [Python EDA Pipeline]
- • STR_TO_DATE parsing        • Data cleaning & missing values
- • CTEs & CROSS JOIN MoM%     • Distribution plots & Seaborn
- • CASE WHEN conditional agg  • Plotly interactive treemaps
- • 37 Validated queries       • State & purpose mappings
-       │                               │
-       └───────────────┬───────────────┘
-                       ▼
-    [Power BI Modeling & BI Reconciliation]
-     • Star Schema & Time Intelligence DAX
-     • Reconciled 100% against SQL truth
-     • Summary KPI View & Overview Deep-Dive
+```mermaid
+flowchart TD
+    A["Raw Transactional Ledger - 38,576 Loan Records ($435M Disbursed)"] --> B["Data Ingestion & Date Normalization"]
+    B --> C["MySQL Analytical Engine"]
+    B --> D["Python Exploratory Pipeline"]
+    
+    C -->|"37 Validated Queries"| E["Portfolio Risk & MoM Aggregation"]
+    D -->|"Seaborn & Matplotlib"| F["Default Cohort & Term Distribution"]
+    
+    E --> G["Power BI Liquidity & Risk Architecture"]
+    F --> G
+    
+    G --> H["Good Loan Surplus: +$65.56M Net"]
+    G --> I["Bad Loan Recovery: 56.9% ($28.25M Impairment)"]
 ```
 
 ---
@@ -206,8 +203,6 @@ bank-loan-analysis-sql-powerbi-python/
 ## 👨‍💼 Author & Contact
 **Ravinder Gupta**  
 *Data Analyst | Business Intelligence & SQL Analytics Specialist*  
-- 📍 **Location:** Alwar, Rajasthan, India  
+- 📍 **Location:** Gurugram (Delhi-NCR), India  
 - 📧 **Email:** [iamravindergupta17@gmail.com](mailto:iamravindergupta17@gmail.com)  
-- 💬 **WhatsApp:** [+91 9982637026](https://wa.me/919982637026?text=Hi%20Ravinder,%20saw%20your%20Bank%20Loan%20portfolio)
-- 💼 **LinkedIn:** [linkedin.com/in/ravinder-gupta-da](https://linkedin.com/in/ravinder-gupta-da)  
 - 🐙 **GitHub:** [github.com/ravinder0710](https://github.com/ravinder0710)
